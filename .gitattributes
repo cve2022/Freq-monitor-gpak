@@ -1,0 +1,5 @@
+# Preserve line endings; do not normalize text files on checkout or commit.
+* -text
+
+# GreenPAK .gp6 files are XML: preserve their bytes/EOLs and show text diffs.
+*.gp6 -text diff

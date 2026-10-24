@@ -1,0 +1,21 @@
+{
+  "filename_prefix": "go_configure",
+  "start_time_us": 0,
+  "frequency_sweep": {
+    "start_khz": 90,
+    "end_khz": 110,
+    "step_khz": 1
+  },
+  "burst": {
+    "cycles": 20,
+    "silence_us": 100
+  },
+  "waveform": {
+    "low": 0,
+    "high": 3300,
+    "edge_time_us": 0.1
+  },
+  "output": {
+    "time_decimals": 3
+  }
+}
